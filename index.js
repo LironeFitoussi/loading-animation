@@ -6,6 +6,11 @@ window.onload = function() {
     setTimeout(function() {
       loading.style.display = 'none';
       content.style.display = 'block';
-    }, 2000); // Delay in milliseconds
+    }, sec(3)); // Delay in milliseconds
   };
+
+
+  function sec(seconds) {
+    return seconds*1000
+  }
   
